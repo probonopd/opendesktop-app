@@ -1,0 +1,94 @@
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+    box-sizing: border-box;
+}
+
+article,
+section,
+nav,
+aside,
+header,
+footer,
+figure,
+figcaption,
+main,
+embed,
+canvas,
+details,
+summary {
+    display: block;
+}
+
+time,
+mark,
+ruby,
+rt,
+rp,
+wbr,
+datalist,
+keygen,
+progress,
+meter {
+    display: inline;
+}
+
+body,
+article,
+section,
+nav,
+aside,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+footer,
+address,
+p,
+hr,
+pre,
+blockquote,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+figure,
+figcaption,
+div,
+main,
+img,
+iframe,
+embed,
+object,
+video,
+audio,
+table,
+caption,
+tbody,
+thead,
+tfoot,
+tr,
+td,
+th,
+form,
+input,
+button,
+select,
+textarea,
+fieldset,
+legend,
+canvas,
+details,
+summary {
+    margin: 0;
+    padding: 0;
+}

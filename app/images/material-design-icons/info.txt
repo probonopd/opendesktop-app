@@ -1,0 +1,4 @@
+Material design icons
+https://github.com/google/material-design-icons/
+
+Apache License Version 2.0

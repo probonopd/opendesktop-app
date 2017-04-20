@@ -1,0 +1,32 @@
+{
+    "versionname": "0.1.0",
+    "versioncode": 1,
+    "releasemeta": "https://github.com/opendesktop/opendesktop-app/raw/master/release.json",
+    "releasepage": "https://www.linux-apps.com/p/1175480/",
+    "releasefiles": [
+        {
+            "name": "opendesktop-app_0.1.0-0ubuntu1_amd64.deb",
+            "description": "ubuntu",
+            "url": "https://dl.opendesktop.org/api/files/download/id/1492685474/opendesktop-app_0.1.0-0ubuntu1_amd64.deb",
+            "ocsurl": "ocs://install?url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownload%2Fid%2F1492685474%2Fopendesktop-app_0.1.0-0ubuntu1_amd64.deb&type=bin&filename=opendesktop-app_0.1.0-0ubuntu1_amd64.deb"
+        },
+        {
+            "name": "opendesktop-app-0.1.0-1.fc20.x86_64.rpm",
+            "description": "fedora",
+            "url": "https://dl.opendesktop.org/api/files/download/id/1492685592/opendesktop-app-0.1.0-1.fc20.x86_64.rpm",
+            "ocsurl": "ocs://install?url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownload%2Fid%2F1492685592%2Fopendesktop-app-0.1.0-1.fc20.x86_64.rpm&type=bin&filename=opendesktop-app-0.1.0-1.fc20.x86_64.rpm"
+        },
+        {
+            "name": "opendesktop-app-0.1.0-1.x86_64.rpm",
+            "description": "opensuse",
+            "url": "https://dl.opendesktop.org/api/files/download/id/1492685725/opendesktop-app-0.1.0-1.x86_64.rpm",
+            "ocsurl": "ocs://install?url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownload%2Fid%2F1492685725%2Fopendesktop-app-0.1.0-1.x86_64.rpm&type=bin&filename=opendesktop-app-0.1.0-1.x86_64.rpm"
+        },
+        {
+            "name": "opendesktop-app-0.1.0-1-x86_64.pkg.tar.xz",
+            "description": "archlinux",
+            "url": "https://dl.opendesktop.org/api/files/download/id/1492685827/opendesktop-app-0.1.0-1-x86_64.pkg.tar.xz",
+            "ocsurl": "ocs://install?url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownload%2Fid%2F1492685827%2Fopendesktop-app-0.1.0-1-x86_64.pkg.tar.xz&type=bin&filename=opendesktop-app-0.1.0-1-x86_64.pkg.tar.xz"
+        }
+    ]
+}

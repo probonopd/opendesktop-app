@@ -1,0 +1,12 @@
+Source: opendesktop-app
+Section: web
+Priority: optional
+Maintainer: Akira Ohgaki <akiraohgaki@gmail.com>
+Build-Depends: build-essential, qt5-default (>= 5.2.0), libqt5svg5-dev (>= 5.2.0), qtdeclarative5-dev (>= 5.2.0), git, nodejs, npm, devscripts, debhelper, fakeroot
+Standards-Version: 3.9.4
+
+Package: opendesktop-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5svg5 (>= 5.2.0), qml-module-qtquick2 (>= 5.2.0) | qtdeclarative5-qtquick2-plugin (>= 5.2.0), qml-module-qtquick-window2 (>= 5.2.0) | qtdeclarative5-window-plugin (>= 5.2.0), qml-module-qtquick-controls (>= 5.2.0) | qtdeclarative5-controls-plugin (>= 5.2.0)
+Description: Opendesktop.org App
+ An opendesktop.org application.

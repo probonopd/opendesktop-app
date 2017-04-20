@@ -1,0 +1,31 @@
+# Maintainer: Akira Ohgaki <akiraohgaki@gmail.com>
+
+pkgname='opendesktop-app'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='An opendesktop.org application.'
+arch=('i686' 'x86_64')
+url='https://github.com/opendesktop/opendesktop-app'
+license=('GPL3')
+depends=('qt5-base>=5.2.0' 'qt5-svg>=5.2.0' 'qt5-declarative>=5.2.0' 'qt5-quickcontrols>=5.2.0')
+makedepends=('git' 'nodejs' 'npm')
+#source=("https://github.com/opendesktop/opendesktop-app/archive/release-${pkgver}.tar.gz")
+source=("${pkgname}.tar.gz")
+md5sums=() #autofill using updpkgsums
+
+prepare() {
+    #cd "${pkgname}-release-${pkgver}"
+    cd "${pkgname}"
+}
+
+build() {
+    #cd "${pkgname}-release-${pkgver}"
+    cd "${pkgname}"
+    make
+}
+
+package() {
+    #cd "${pkgname}-release-${pkgver}"
+    cd "${pkgname}"
+    make DESTDIR="${pkgdir}" prefix="/usr" install
+}

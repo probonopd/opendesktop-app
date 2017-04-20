@@ -1,0 +1,30 @@
+{
+  "name": "opendesktop-app",
+  "productName": "Opendesktop.org App",
+  "version": "0.1.0",
+  "description": "An opendesktop.org application.",
+  "keywords": [
+    "Opendesktop",
+    "Electron"
+  ],
+  "author": "Opendesktop.org",
+  "license": "GPL-3.0",
+  "homepage": "https://www.opendesktop.org/",
+  "repository": "https://github.com/opendesktop/opendesktop-app",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron . --debug",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager . opendesktop-app --platform=linux --arch=x64 --out=out --overwrite --ignore='(\\.gitignore|\\.travis\\.yml|bitbucket-pipelines\\.yml|Makefile|desktop|launcher|pkg|scripts/.+\\.sh|debian|build_.+)($|/)'"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "import-export": "^1.0.1",
+    "js": "git://github.com/akiraohgaki/js.git#8ab77687598a807f510f4ce491bd516dc3bba0ed"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}

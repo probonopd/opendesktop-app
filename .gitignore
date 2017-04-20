@@ -1,0 +1,6 @@
+build_*/
+node_modules/
+bin/
+out/
+opendesktop-app
+opendesktop-app-*/

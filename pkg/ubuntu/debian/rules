@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	# ignore
+
+override_dh_auto_install:
+	make DESTDIR="$(CURDIR)/debian/tmp" prefix="/usr" install
+
+override_dh_shlibdeps:
+	# ignore

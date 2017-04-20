@@ -1,0 +1,4 @@
+usr/bin/opendesktop-app
+usr/lib/opendesktop-app-*/*
+usr/share/applications/opendesktop-app.desktop
+usr/share/icons/hicolor/scalable/apps/opendesktop-app.svg
