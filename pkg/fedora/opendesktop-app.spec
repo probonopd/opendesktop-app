@@ -13,7 +13,7 @@ Requires: qt5-qtbase >= 5.2.0, qt5-qtbase-gui >= 5.2.0, qt5-qtsvg >= 5.2.0, qt5-
 BuildRequires: make, automake, gcc, gcc-c++, libtool, qt5-qtbase-devel >= 5.2.0, qt5-qtsvg-devel >= 5.2.0, qt5-qtdeclarative-devel >= 5.2.0, git, nodejs, npm, rpm-build
 
 %description
-An opendesktop.org application.
+The official Opendesktop.org App.
 
 %prep
 #%%autosetup -n %{name}-release-%{version}
