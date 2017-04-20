@@ -2,7 +2,7 @@
   "name": "opendesktop-app",
   "productName": "Opendesktop.org App",
   "version": "0.1.0",
-  "description": "An opendesktop.org application.",
+  "description": "The official Opendesktop.org App.",
   "keywords": [
     "Opendesktop",
     "Electron"

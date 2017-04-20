@@ -13,7 +13,7 @@ Requires: libQt5Svg5 >= 5.2.0, libqt5-qtquickcontrols >= 5.2.0
 BuildRequires: make, automake, gcc, gcc-c++, libtool, libqt5-qtbase-devel >= 5.2.0, libqt5-qtsvg-devel >= 5.2.0, libqt5-qtdeclarative-devel >= 5.2.0, git, nodejs, npm, rpm-build
 
 %description
-An opendesktop.org application.
+The official Opendesktop.org App.
 
 %prep
 #%%autosetup -n %{name}-release-%{version}

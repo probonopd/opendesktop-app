@@ -3,7 +3,7 @@
 pkgname='opendesktop-app'
 pkgver='0.1.0'
 pkgrel='1'
-pkgdesc='An opendesktop.org application.'
+pkgdesc='The official Opendesktop.org App.'
 arch=('i686' 'x86_64')
 url='https://github.com/opendesktop/opendesktop-app'
 license=('GPL3')
