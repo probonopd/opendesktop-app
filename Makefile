@@ -60,7 +60,7 @@ app: ocsurl
 
 ocsurl:
 	mkdir -p $(build_tmpdir)
-	git clone https://github.com/ocs-url/ocs-url.git -b release-$(ocsurl_version) --single-branch --depth=1 $(build_tmpdir)/ocs-url
+	git clone https://github.com/opendesktop/ocs-url.git -b release-$(ocsurl_version) --single-branch --depth=1 $(build_tmpdir)/ocs-url
 	cd $(build_tmpdir)/ocs-url; \
 		sh ./scripts/import.sh; \
 		qmake ./ocs-url.pro; \
