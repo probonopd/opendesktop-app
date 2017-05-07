@@ -25,6 +25,7 @@ export default class MenuArea extends Component {
             <option value="https://www.xfce-look.org/">xfce-look.org</option>
             <option value="https://www.box-look.org/">box-look.org</option>
             <option value="https://www.enlightenment-themes.org/">enlightenment-themes.org</option>
+            <option value="https://www.linux-appimages.org/">linux-appimages.org</option>
             </select>
             </li>
             </ul>
